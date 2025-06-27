@@ -1,0 +1,26 @@
+[0.316s] Invoking command in '/home/hycon/autoware-1/my_package': PYTHONPATH=/home/hycon/autoware-1/my_package/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_package build --build-base /home/hycon/autoware-1/my_package/build/my_package/build install --record /home/hycon/autoware-1/my_package/build/my_package/install.log --single-version-externally-managed install_data
+[0.434s] running egg_info
+[0.435s] writing build/my_package/my_package.egg-info/PKG-INFO
+[0.435s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[0.435s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[0.435s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[0.435s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[0.435s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[0.436s] adding license file 'LICENSE'
+[0.436s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[0.436s] running build
+[0.436s] running build_py
+[0.436s] copying my_package/autoware_loop_node.py -> /home/hycon/autoware-1/my_package/build/my_package/build/lib/my_package
+[0.436s] running install
+[0.436s] running install_lib
+[0.437s] copying /home/hycon/autoware-1/my_package/build/my_package/build/lib/my_package/autoware_loop_node.py -> /home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages/my_package
+[0.437s] byte-compiling /home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages/my_package/autoware_loop_node.py to autoware_loop_node.cpython-310.pyc
+[0.440s] running install_data
+[0.440s] running install_egg_info
+[0.440s] removing '/home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.441s] Copying build/my_package/my_package.egg-info to /home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.441s] running install_scripts
+[0.451s] Installing autoware_loop_node script to /home/hycon/autoware-1/my_package/install/my_package/lib/my_package
+[0.451s] Installing my_node script to /home/hycon/autoware-1/my_package/install/my_package/lib/my_package
+[0.451s] writing list of installed files to '/home/hycon/autoware-1/my_package/build/my_package/install.log'
+[0.464s] Invoked command in '/home/hycon/autoware-1/my_package' returned '0': PYTHONPATH=/home/hycon/autoware-1/my_package/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hycon/autoware-1/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_package build --build-base /home/hycon/autoware-1/my_package/build/my_package/build install --record /home/hycon/autoware-1/my_package/build/my_package/install.log --single-version-externally-managed install_data

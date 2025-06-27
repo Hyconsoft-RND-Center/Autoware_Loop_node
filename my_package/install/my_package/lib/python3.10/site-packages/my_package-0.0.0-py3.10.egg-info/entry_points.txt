@@ -1,0 +1,4 @@
+[console_scripts]
+autoware_loop_node = my_package.autoware_loop_node:main
+my_node = my_package.my_node:main
+

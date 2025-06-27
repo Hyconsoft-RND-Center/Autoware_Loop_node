@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'autoware_loop_node'
+package_name = 'my_package'
 
 setup(
     name=package_name,
@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools', 'autoware_auto_vehicle_msgs'],
     zip_safe=True,
-    maintainer='hyconsoft_rnd',
-    maintainer_email='jh.jung@hyconsoft.com',
+    maintainer='hycon',
+    maintainer_email='hycon@todo.todo',
     description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'my_node = my_package.my_node:main',
             'autoware_loop_node = my_package.autoware_loop_node:main'
         ],
     },
